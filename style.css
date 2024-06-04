@@ -1,0 +1,80 @@
+,::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(184, 135, 77);
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container-fluid{
+    background-color: rgb(87, 50, 5);
+}
+
+.carousel-inner{
+    justify-content: right;
+    width: 100%;
+    height: 300px;
+    padding: 40px;
+    background-color: rgba(240, 237, 232, 0.1);
+    gap: 30px;
+    box-sizing: border-box;
+    
+}
+
+.carousel-inner img{
+    
+}
+
+.latar{
+    background-color: rgb(112, 76, 13);
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.text p{
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; 
+}
+.text p1{
+    color: rgb(30, 19, 5);
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.text p2{
+    color: rgb(108, 35, 3);
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.text p3{
+    color: rgb(30, 19, 5);
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
